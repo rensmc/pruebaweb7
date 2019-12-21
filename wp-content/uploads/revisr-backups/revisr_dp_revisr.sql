@@ -19,12 +19,12 @@ CREATE TABLE `dp_revisr` (
   `event` varchar(42) NOT NULL,
   `user` varchar(60) DEFAULT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `dp_revisr` WRITE;
 /*!40000 ALTER TABLE `dp_revisr` DISABLE KEYS */;
-INSERT INTO `dp_revisr` VALUES (1,'2019-12-21 00:54:48','Successfully created a new repository.','init','Prueba de Web Designer');
+INSERT INTO `dp_revisr` VALUES (1,'2019-12-21 00:54:48','Successfully created a new repository.','init','Prueba de Web Designer'),(2,'2019-12-21 00:58:15','Successfully backed up the database.','backup','rensmc'),(3,'2019-12-21 00:58:30','Committed <a href=\"https://adsandcoffee.com/pruebaweb7/wp-admin/admin.php?page=revisr_view_commit&commit=bb6dff7&success=true\">#bb6dff7</a> to the local repository.','commit','rensmc'),(4,'2019-12-21 00:58:30','Error pushing changes to the remote repository.','error','rensmc'),(5,'2019-12-21 00:58:52','Error pushing changes to the remote repository.','error','rensmc'),(6,'2019-12-21 01:02:19','Error pushing changes to the remote repository.','error','rensmc'),(7,'2019-12-21 01:02:37','Error pushing changes to the remote repository.','error','rensmc');
 /*!40000 ALTER TABLE `dp_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
